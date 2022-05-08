@@ -38,6 +38,7 @@ body {
 .header__nav {
 	font-size: 22px;
 	font-weight: 600;
+	display: inline-flex;
 }
 
 .header__nav li {
@@ -46,7 +47,7 @@ body {
 
 .header__nav-link {
 	text-decoration: none;
-	display: inline-block;
+	display: inline-flex;
     color: #6b6b6b;
     margin: 0 20px;
     transition: color .1s linear;
