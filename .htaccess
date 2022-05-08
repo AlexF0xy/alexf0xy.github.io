@@ -1,9 +1,3 @@
-//Rewrite to www
-Options +FollowSymLinks
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^https://alexf0xy.github.io/[nc]
-RewriteRule ^(.*)$ http://www.alexf0xy.github.io//$1 [r=301,nc]
-
 //Custom 400 errors
 ErrorDocument 400 /erorrs/400.html
 
@@ -18,6 +12,3 @@ ErrorDocument 404 /erorrs/404.html
 
 //Custom 500 errors
 ErrorDocument 500 /erorrs/500.html
-
-//Change default directory page
-DirectoryIndex index.html
