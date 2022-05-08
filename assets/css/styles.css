@@ -31,14 +31,21 @@ body {
 
 .header__logo {
 	font-size: 25px;
+	font-weight: 800;
 }
 
 .header__nav {
+	font-size: 22px;
 	font-weight: 600;
 }
 
 .header__nav-link {
-	display: inline-flex;
 	text-decoration: none;
+    color: #6b6b6b;
+    margin: 20px 0;
+    transition: color .1s linear;
+}
 
+.header__nav-link {
+	color: #828282;
 }
