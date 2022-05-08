@@ -47,6 +47,7 @@ body {
 
 .header__nav-link {
 	text-decoration: none;
+	font-size: 18px;
 	display: inline-flex;
     color: #6b6b6b;
     margin: 0 20px;
