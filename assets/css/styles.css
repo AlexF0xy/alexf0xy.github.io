@@ -45,11 +45,12 @@ body {
 
 .header__nav-link {
 	text-decoration: none;
+	display: inline-flex;
     color: #6b6b6b;
     margin: 20px 0;
     transition: color .1s linear;
 }
 
 .header__nav-link:hover {
-	color: #828282;
+	color: #363636;
 }
