@@ -71,3 +71,20 @@ body {
 	position: absolute;
 
 }
+
+.footer {
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+}
+
+.footer__link {
+	display: inline-flex;
+    color: #000;
+    text-decoration: none;
+}
+
+.footer__link:hover {
+	text-decoration: underline;
+}
+
