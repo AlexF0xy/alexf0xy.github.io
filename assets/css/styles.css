@@ -1,7 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;600;800&display=swap');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
 	font-family: 'Nunito', sans-serif;
 	font-weight: 300;
-	font-size: 24px;
+	font-size: 20px;
+	overflow-x: hidden;
+}
+
+/* Header */
+.header {
+	width: 100%;
+	position: absolute;
+	z-index: 1000;
+}
+
+.header__container {
+	width: 100%;
+	max-width: 1300px;
+	margin: 0 auto;
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+	font-size: 25px;
+}
+
+.header__nav {
+	font-weight: 600;
+}
+
+.header__nav-link {
+	display: inline-flex;
+	text-decoration: none;
+
 }
